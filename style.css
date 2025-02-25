@@ -1,12 +1,14 @@
 /* header */
 * {
   background-color: black;
+  
 }
 header {
   display: flex;
   justify-content: center;
   flex-direction: row;
   background-color: #000;
+  
 }
 
 header img {
@@ -50,7 +52,11 @@ a:hover {
 
 /* main-content */
 main {
-  background: linear-gradient(#b04a68 1%, #000 20%);
+  background-position: right top, center -40%;
+  background-image: url(desktop-album-evergreen-1x.png), linear-gradient(to bottom, #ef77a1, #121212);
+  background-size: min(60%, 800px), 100% 40%;
+  background-repeat: no-repeat, no-repeat;
+  position: relative;
   height: 100vh;
   margin: 0;
   color: white;
